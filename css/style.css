@@ -80,6 +80,34 @@ h6 {
   background: var(--tech-color);
 }
 
+.btn {
+  display: inline-block;
+  padding: 0.5rem 1.5rem;
+  border: none;
+  color: #fff;
+  background: var(--dark-color);
+}
+
+.btn-light {
+  background: var(--light-color);
+}
+.btn-primary {
+  background: var(--primary-color);
+}
+.btn-secondary {
+  background: var(--secondary-color);
+}
+
+.btn-block {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
 /* Navigation */
 #main-nav {
   z-index: 2;
